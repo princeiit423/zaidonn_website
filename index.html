@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZAIDONN | Trusted Taxation Consultants & Advisors – Asansol</title>
+  <meta name="description" content="ZAIDONN Taxation Farm – Trusted GST Registration & Filing, ITR, Business Licences, Accounts & Audit consultants based in Asansol. Driving Compliance. Creating Prosperity." />
+  <meta name="keywords" content="GST registration Asansol, ITR filing, taxation consultant Asansol, business licence, accounts audit, ZAIDONN" />
+  <meta property="og:title" content="ZAIDONN – Trusted Taxation Consultants & Advisors" />
+  <meta property="og:description" content="Driving Compliance. Creating Prosperity. Expert GST, ITR, Accounts & Audit services." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.zaidonn.com" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Syne', 'sans-serif'],
+            body: ['DM Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50:  '#eef6ff',
+              100: '#dbeeff',
+              200: '#b8dcff',
+              300: '#7cbeff',
+              400: '#3896ff',
+              500: '#0d6efd',
+              600: '#0050e8',
+              700: '#003ec0',
+              800: '#00309b',
+              900: '#002882',
+              950: '#001654',
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #f8faff;
+      color: #0f1c3a;
+      overflow-x: hidden;
+    }
+
+    /* ── CUSTOM SCROLLBAR ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #eef6ff; }
+    ::-webkit-scrollbar-thumb { background: #0d6efd; border-radius: 99px; }
+
+    /* ── GLASSMORPHISM ── */
+    .glass {
+      background: rgba(255,255,255,0.22);
+      backdrop-filter: blur(18px) saturate(180%);
+      -webkit-backdrop-filter: blur(18px) saturate(180%);
+      border: 1px solid rgba(255,255,255,0.45);
+    }
+    /* Solid-background cards for dark sections */
+    .glass-solid {
+      background: rgba(10,30,90,0.75);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(255,255,255,0.18);
+    }
+    .glass-dark {
+      background: rgba(0,40,130,0.28);
+      backdrop-filter: blur(20px) saturate(200%);
+      -webkit-backdrop-filter: blur(20px) saturate(200%);
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+    .glass-card {
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(13,110,253,0.13);
+      box-shadow: 0 8px 32px rgba(0,80,232,0.10);
+    }
+
+    /* ── GRADIENT MESH BG ── */
+    .mesh-bg {
+      background:
+        radial-gradient(ellipse 80% 60% at 20% 10%, rgba(13,110,253,0.18) 0%, transparent 65%),
+        radial-gradient(ellipse 60% 50% at 80% 80%, rgba(0,62,192,0.14) 0%, transparent 60%),
+        radial-gradient(ellipse 50% 40% at 60% 30%, rgba(120,190,255,0.12) 0%, transparent 55%),
+        #eaf2ff;
+    }
+    .hero-mesh {
+      background:
+        radial-gradient(ellipse 90% 70% at 10% 5%, rgba(13,110,253,0.35) 0%, transparent 55%),
+        radial-gradient(ellipse 60% 50% at 90% 90%, rgba(0,22,84,0.5) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 40% at 50% 50%, rgba(56,150,255,0.2) 0%, transparent 60%),
+        linear-gradient(145deg, #001654 0%, #003ec0 45%, #0d6efd 100%);
+    }
+
+    /* ── GRID OVERLAY ── */
+    .grid-overlay {
+      background-image:
+        linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+
+    /* ── FLOATING ORBS ── */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      opacity: 0.35;
+      pointer-events: none;
+    }
+    .orb-1 { width: 420px; height: 420px; background: #3896ff; top: -120px; left: -100px; animation: floatOrb 8s ease-in-out infinite; }
+    .orb-2 { width: 300px; height: 300px; background: #0050e8; bottom: -80px; right: 5%; animation: floatOrb 11s ease-in-out infinite reverse; }
+    .orb-3 { width: 200px; height: 200px; background: #7cbeff; top: 40%; right: 10%; animation: floatOrb 9s ease-in-out infinite 2s; }
+
+    @keyframes floatOrb {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -40px) scale(1.05); }
+      66% { transform: translate(-20px, 20px) scale(0.97); }
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    @keyframes slideRight {
+      from { opacity: 0; transform: translateX(-40px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes slideLeft {
+      from { opacity: 0; transform: translateX(40px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.85); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+    @keyframes shimmer {
+      0%  { background-position: -200% center; }
+      100%{ background-position:  200% center; }
+    }
+    @keyframes pulse-ring {
+      0%  { transform: scale(1);   opacity: 0.6; }
+      100%{ transform: scale(1.9); opacity: 0; }
+    }
+    @keyframes bounce-y {
+      0%,100% { transform: translateY(0); }
+      50%     { transform: translateY(-8px); }
+    }
+    @keyframes spin-slow { to { transform: rotate(360deg); } }
+    @keyframes countUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .anim-fade-up   { animation: fadeUp    0.8s ease both; }
+    .anim-fade-in   { animation: fadeIn    0.8s ease both; }
+    .anim-slide-r   { animation: slideRight 0.8s ease both; }
+    .anim-slide-l   { animation: slideLeft  0.8s ease both; }
+    .anim-scale-in  { animation: scaleIn   0.7s ease both; }
+    .anim-bounce    { animation: bounce-y  3s ease-in-out infinite; }
+
+    .delay-100 { animation-delay: 0.1s; }
+    .delay-200 { animation-delay: 0.2s; }
+    .delay-300 { animation-delay: 0.3s; }
+    .delay-400 { animation-delay: 0.4s; }
+    .delay-500 { animation-delay: 0.5s; }
+    .delay-600 { animation-delay: 0.6s; }
+    .delay-700 { animation-delay: 0.7s; }
+
+    /* ── SHIMMER TEXT ── */
+    .shimmer-text {
+      background: linear-gradient(90deg, #ffffff 0%, #93c5fd 35%, #ffffff 55%, #bfdbfe 80%, #ffffff 100%);
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 4s linear infinite;
+    }
+
+    /* ── NAV ── */
+    #navbar {
+      transition: background 0.4s, box-shadow 0.4s, padding 0.4s;
+    }
+    #navbar.scrolled {
+      background: rgba(255,255,255,0.92) !important;
+      backdrop-filter: blur(18px);
+      box-shadow: 0 2px 24px rgba(0,80,232,0.12);
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #navbar.scrolled .nav-link { color: #001654 !important; }
+    #navbar.scrolled .logo-text { color: #001654 !important; }
+    #navbar.scrolled .nav-cta { background: #0d6efd !important; color: white !important; }
+
+    .nav-link {
+      position: relative;
+      transition: color 0.3s;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -3px; left: 0;
+      width: 0; height: 2px;
+      background: #3896ff;
+      border-radius: 99px;
+      transition: width 0.3s;
+    }
+    .nav-link:hover::after { width: 100%; }
+
+    /* ── HERO NUMBER COUNTER ── */
+    .counter { font-family: 'Syne', sans-serif; font-weight: 800; }
+
+    /* ── SERVICE CARD ── */
+    .service-card {
+      transition: transform 0.35s cubic-bezier(.22,.68,0,1.2), box-shadow 0.35s;
+      cursor: default;
+    }
+    .service-card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 20px 60px rgba(0,80,232,0.18);
+    }
+    .service-icon-wrap {
+      transition: transform 0.4s cubic-bezier(.22,.68,0,1.2);
+    }
+    .service-card:hover .service-icon-wrap {
+      transform: rotate(8deg) scale(1.15);
+    }
+
+    /* ── STEP LINE ── */
+    .step-connector {
+      position: absolute;
+      top: 28px; left: calc(50% + 28px);
+      width: calc(100% - 56px);
+      height: 2px;
+      background: linear-gradient(90deg, #0d6efd 0%, #7cbeff 100%);
+    }
+
+    /* ── TESTIMONIAL CARD ── */
+    .testi-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .testi-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 48px rgba(0,80,232,0.14);
+    }
+
+    /* ── CTA GLOW ── */
+    .cta-glow {
+      box-shadow: 0 0 0 0 rgba(56,150,255,0.7);
+      animation: pulse-glow 2.5s ease-in-out infinite;
+    }
+    @keyframes pulse-glow {
+      0%,100% { box-shadow: 0 0 0 0 rgba(56,150,255,0.5); }
+      50%     { box-shadow: 0 0 0 16px rgba(56,150,255,0); }
+    }
+
+    /* ── DOWNLOAD SECTION ── */
+    .phone-mockup {
+      animation: bounce-y 4s ease-in-out infinite;
+      filter: drop-shadow(0 30px 60px rgba(0,80,232,0.4));
+    }
+
+    /* ── SCROLL REVEAL ── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .reveal-left {
+      opacity: 0;
+      transform: translateX(-40px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal-left.visible { opacity: 1; transform: none; }
+    .reveal-right {
+      opacity: 0;
+      transform: translateX(40px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal-right.visible { opacity: 1; transform: none; }
+    .reveal-scale {
+      opacity: 0;
+      transform: scale(0.88);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal-scale.visible { opacity: 1; transform: scale(1); }
+
+    /* ── PROGRESS BAR ── */
+    .progress-fill {
+      height: 100%;
+      border-radius: 99px;
+      background: linear-gradient(90deg, #0d6efd, #3896ff);
+      width: 0;
+      transition: width 1.4s ease;
+    }
+
+    /* ── SECTION DIVIDER ── */
+    .wave-divider svg { display: block; }
+
+    /* ── MOBILE MENU ── */
+    #mobile-menu {
+      transition: max-height 0.4s ease, opacity 0.4s ease;
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
+    }
+    #mobile-menu.open { max-height: 600px; opacity: 1; }
+
+    /* ── BADGE ── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 14px;
+      border-radius: 99px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .badge-blue {
+      background: rgba(13,110,253,0.12);
+      color: #0050e8;
+      border: 1px solid rgba(13,110,253,0.25);
+    }
+    .badge-white {
+      background: rgba(255,255,255,0.22);
+      color: #ffffff;
+      border: 1px solid rgba(255,255,255,0.55);
+      font-weight: 700;
+    }
+
+    /* ── FLOATING PARTICLES ── */
+    .particle {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.15);
+      animation: floatOrb linear infinite;
+      pointer-events: none;
+    }
+
+    /* ── TOOLTIP ── */
+    .tooltip { position: relative; }
+    .tooltip-text {
+      visibility: hidden; opacity: 0;
+      position: absolute; bottom: 120%; left: 50%;
+      transform: translateX(-50%);
+      background: #001654;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      white-space: nowrap;
+      transition: opacity 0.25s;
+      pointer-events: none;
+      z-index: 50;
+    }
+    .tooltip:hover .tooltip-text { visibility: visible; opacity: 1; }
+
+    /* ── SECTION LABEL ── */
+    .section-label {
+      font-family: 'Syne', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #003ec0;
+    }
+
+    /* ── FOOTER GRADIENT ── */
+    .footer-gradient {
+      background: linear-gradient(160deg, #001654 0%, #003ec0 60%, #002882 100%);
+    }
+
+    /* Hide scrollbar for mobile nav */
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* Responsive helpers */
+    @media (max-width: 768px) {
+      .orb { display: none; }
+      .step-connector { display: none; }
+    }
+  </style>
+</head>
+<body class="antialiased">
+
+<!-- ─────────────────────── NAVBAR ─────────────────────── -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 py-4 px-4 transition-all duration-300">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+    <!-- Logo -->
+    <a href="#home" class="flex items-center gap-3 group">
+      <div class="w-10 h-10 rounded-xl overflow-hidden border-2 border-white/30 shadow-lg">
+        <div class="w-full h-full bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center">
+          <span class="text-white font-display font-800 text-lg leading-none">Z</span>
+        </div>
+      </div>
+      <div>
+        <span class="logo-text text-white font-display font-bold text-xl tracking-wide">ZAIDONN</span>
+        <div class="text-white text-xs leading-none -mt-0.5 font-medium">Taxation Farm</div>
+      </div>
+    </a>
+
+    <!-- Desktop Nav -->
+    <div class="hidden lg:flex items-center gap-8">
+      <a href="#about"     class="nav-link text-white/90 text-sm font-medium hover:text-white">About</a>
+      <a href="#services"  class="nav-link text-white/90 text-sm font-medium hover:text-white">Services</a>
+      <a href="#who-we-help" class="nav-link text-white/90 text-sm font-medium hover:text-white">Who We Help</a>
+      <a href="#how-we-work" class="nav-link text-white/90 text-sm font-medium hover:text-white">How We Work</a>
+      <a href="download.html"       class="nav-link text-white/90 text-sm font-medium hover:text-white">Download App</a>
+      <a href="#testimonials" class="nav-link text-white/90 text-sm font-medium hover:text-white">Reviews</a>
+      <a href="#contact"   class="nav-link text-white/90 text-sm font-medium hover:text-white">Contact</a>
+    </div>
+
+    <!-- CTA -->
+    <div class="hidden lg:flex items-center gap-3">
+      <a href="tel:+917482049372" class="flex items-center gap-2 text-white text-sm hover:text-white transition">
+        <i data-lucide="phone" class="w-4 h-4"></i>
+        +91 74820 49372
+      </a>
+      <a href="#contact" class="nav-cta px-5 py-2.5 rounded-xl bg-white text-brand-700 font-display font-600 text-sm hover:bg-brand-50 transition-all duration-300 shadow-lg">
+        Get Started
+      </a>
+    </div>
+
+    <!-- Hamburger -->
+    <button id="menu-toggle" class="lg:hidden w-10 h-10 glass rounded-lg flex items-center justify-center text-white">
+      <i data-lucide="menu" class="w-5 h-5" id="menu-icon"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="lg:hidden mt-2">
+    <div class="rounded-2xl p-5 mx-2 flex flex-col gap-3" style="background:rgba(0,24,80,0.97);border:1px solid rgba(255,255,255,0.2);">
+      <a href="#about"        class="text-white/90 font-medium py-2 border-b border-white/10">About</a>
+      <a href="#services"     class="text-white/90 font-medium py-2 border-b border-white/10">Services</a>
+      <a href="#who-we-help"  class="text-white/90 font-medium py-2 border-b border-white/10">Who We Help</a>
+      <a href="#how-we-work"  class="text-white/90 font-medium py-2 border-b border-white/10">How We Work</a>
+      <a href="download.html"          class="text-white/90 font-medium py-2 border-b border-white/10">Download App</a>
+      <a href="#testimonials" class="text-white/90 font-medium py-2 border-b border-white/10">Reviews</a>
+      <a href="#contact"      class="text-white/90 font-medium py-2 border-b border-white/10">Contact</a>
+      <a href="#contact" class="mt-2 w-full text-center py-3 rounded-xl bg-brand-500 text-white font-display font-600">Get Free Consultation</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ─────────────────────── HERO ─────────────────────── -->
+<section id="home" class="grid-overlay relative min-h-screen flex items-center pt-20 pb-0 overflow-hidden" style="background: linear-gradient(145deg, #001654 0%, #002882 30%, #003ec0 65%, #0d6efd 100%);">
+  <!-- Orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Floating particles -->
+  <div class="particle w-3 h-3 top-[20%] left-[15%]" style="animation-duration:12s;"></div>
+  <div class="particle w-2 h-2 top-[60%] left-[8%]" style="animation-duration:9s;"></div>
+  <div class="particle w-4 h-4 top-[35%] right-[12%]" style="animation-duration:14s;"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 w-full py-20">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+      <!-- Left Content -->
+      <div>
+        <div class="badge badge-white mb-6 anim-fade-in">
+          <span class="w-2 h-2 rounded-full bg-green-400 inline-block"></span>
+          Trusted Taxation Experts Since Day One
+        </div>
+
+        <h1 class="font-display font-800 text-5xl md:text-6xl lg:text-7xl leading-[1.05] text-white mb-6 anim-fade-up delay-100">
+          Driving<br/>
+          <span class="shimmer-text">Compliance.</span><br/>
+          Creating<br/>
+          <span class="text-blue-300">Prosperity.</span>
+        </h1>
+
+        <p class="text-white/95 text-lg leading-relaxed mb-10 max-w-lg anim-fade-up delay-200">
+          ZAIDONN Taxation Farm delivers expert GST, ITR, Business Licences and Audit services — so you can focus on growing your business while we handle your compliance.
+        </p>
+
+        <div class="flex flex-wrap gap-4 anim-fade-up delay-300">
+          <a href="download.html" class="cta-glow flex items-center gap-2 px-7 py-4 rounded-2xl bg-white text-brand-800 font-display font-700 text-base hover:bg-brand-50 transition-all duration-300 shadow-xl">
+            <i data-lucide="download" class="w-5 h-5"></i>
+            Download App
+          </a>
+          <a href="#services" class="flex items-center gap-2 px-7 py-4 rounded-2xl text-white font-display font-600 text-base hover:bg-white/20 transition-all duration-300" style="background:rgba(255,255,255,0.18);border:2px solid rgba(255,255,255,0.5);">
+            Our Services
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <!-- Trust badges -->
+        <div class="flex flex-wrap gap-6 mt-10 anim-fade-up delay-400">
+          <div class="flex items-center gap-2 text-white/95 text-sm">
+            <i data-lucide="shield-check" class="w-4 h-4 text-green-400"></i>
+            100% Compliant
+          </div>
+          <div class="flex items-center gap-2 text-white/95 text-sm">
+            <i data-lucide="lock" class="w-4 h-4 text-blue-300"></i>
+            Secure & Confidential
+          </div>
+          <div class="flex items-center gap-2 text-white/95 text-sm">
+            <i data-lucide="clock" class="w-4 h-4 text-yellow-300"></i>
+            On-Time Filing
+          </div>
+        </div>
+      </div>
+
+      <!-- Right – Stats Glass Card -->
+      <div class="flex flex-col gap-5 anim-slide-l delay-300">
+        <!-- Main glass card -->
+        <div class="glass-solid rounded-3xl p-8 text-white relative overflow-hidden">
+          <div class="absolute inset-0 opacity-10" style="background: linear-gradient(135deg,#3896ff 0%,transparent 60%);"></div>
+          <div class="relative">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-12 h-12 rounded-2xl bg-white/20 flex items-center justify-center">
+                <i data-lucide="trending-up" class="w-6 h-6 text-white"></i>
+              </div>
+              <div>
+                <div class="font-display font-700 text-lg">Expert Tax Advisors</div>
+                <div class="text-white text-sm">Asansol & Nationwide</div>
+              </div>
+            </div>
+            <div class="grid grid-cols-3 gap-4">
+              <div class="text-center">
+                <div class="counter font-display font-800 text-4xl text-white" data-target="500">0</div>
+                <div class="text-white/95 text-xs mt-1">Clients Served</div>
+              </div>
+              <div class="text-center border-x border-white/20">
+                <div class="counter font-display font-800 text-4xl text-white" data-target="8">0</div>
+                <div class="text-white/95 text-xs mt-1">Years Experience</div>
+              </div>
+              <div class="text-center">
+                <div class="counter font-display font-800 text-4xl text-white" data-target="98">0</div>
+                <div class="text-white/95 text-xs mt-1">% Satisfaction</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Two smaller cards -->
+        <div class="grid grid-cols-2 gap-5">
+          <div class="glass-solid rounded-2xl p-5 text-white">
+            <div class="w-10 h-10 rounded-xl bg-green-400/30 flex items-center justify-center mb-3">
+              <i data-lucide="file-check-2" class="w-5 h-5 text-green-300"></i>
+            </div>
+            <div class="font-display font-700 text-lg">GST & ITR</div>
+            <div class="text-white text-sm">Zero errors guaranteed</div>
+          </div>
+          <div class="glass-solid rounded-2xl p-5 text-white">
+            <div class="w-10 h-10 rounded-xl bg-yellow-400/30 flex items-center justify-center mb-3">
+              <i data-lucide="smartphone" class="w-5 h-5 text-yellow-300"></i>
+            </div>
+            <div class="font-display font-700 text-lg">ZAIDONN App</div>
+            <div class="text-white text-sm">Track filings on the go</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Wave bottom -->
+  <div class="absolute bottom-0 left-0 right-0 wave-divider">
+    <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="width:100%;height:80px;">
+      <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#f0f6ff"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ─────────────────────── MARQUEE / TICKER ─────────────────────── -->
+<section class="py-5 bg-brand-600 overflow-hidden">
+  <div class="flex gap-12 animate-[marquee_20s_linear_infinite] whitespace-nowrap" style="animation: marquee 20s linear infinite;">
+    <style>@keyframes marquee { from{transform:translateX(0)} to{transform:translateX(-50%)} }</style>
+    <div class="flex gap-12 shrink-0 text-white text-sm font-medium tracking-wide">
+      <span>✦ GST Registration & Filing</span>
+      <span>✦ Income Tax Returns (ITR)</span>
+      <span>✦ Business Licences</span>
+      <span>✦ Accounts & Audit</span>
+      <span>✦ TDS / TCS Returns</span>
+      <span>✦ ROC Compliance</span>
+      <span>✦ MSME Registration</span>
+      <span>✦ Bookkeeping Services</span>
+    </div>
+    <div class="flex gap-12 shrink-0 text-white text-sm font-medium tracking-wide">
+      <span>✦ GST Registration & Filing</span>
+      <span>✦ Income Tax Returns (ITR)</span>
+      <span>✦ Business Licences</span>
+      <span>✦ Accounts & Audit</span>
+      <span>✦ TDS / TCS Returns</span>
+      <span>✦ ROC Compliance</span>
+      <span>✦ MSME Registration</span>
+      <span>✦ Bookkeeping Services</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── ABOUT ─────────────────────── -->
+<section id="about" class="py-24 mesh-bg relative">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+      <!-- Visual -->
+      <div class="reveal-left">
+        <div class="relative">
+          <!-- Background shape -->
+          <div class="absolute -inset-4 rounded-3xl bg-gradient-to-br from-brand-100 to-brand-200 opacity-60 -rotate-2"></div>
+          <div class="relative glass-card rounded-3xl p-8">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center shadow-xl">
+                <i data-lucide="landmark" class="w-8 h-8 text-white"></i>
+              </div>
+              <div>
+                <div class="font-display font-800 text-2xl text-brand-900">ZAIDONN</div>
+                <div class="text-brand-700 font-semibold">Taxation Farm</div>
+              </div>
+            </div>
+            <p class="text-gray-800 leading-relaxed mb-6">
+              Founded with a mission to make tax compliance effortless for every Indian business, ZAIDONN Taxation Farm brings together seasoned professionals who understand the complexities of India's evolving tax landscape.
+            </p>
+            <!-- Progress bars -->
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-600 font-medium">GST Compliance Rate</span>
+                  <span class="text-brand-600 font-bold">98%</span>
+                </div>
+                <div class="h-2 bg-brand-100 rounded-full overflow-hidden">
+                  <div class="progress-fill" data-width="98"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-600 font-medium">ITR Filing Accuracy</span>
+                  <span class="text-brand-600 font-bold">100%</span>
+                </div>
+                <div class="h-2 bg-brand-100 rounded-full overflow-hidden">
+                  <div class="progress-fill" data-width="100"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-sm mb-1">
+                  <span class="text-gray-600 font-medium">Client Retention</span>
+                  <span class="text-brand-600 font-bold">95%</span>
+                </div>
+                <div class="h-2 bg-brand-100 rounded-full overflow-hidden">
+                  <div class="progress-fill" data-width="95"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Director card -->
+            <div class="mt-6 flex items-center gap-3 p-4 rounded-2xl bg-gradient-to-r from-brand-50 to-blue-50 border border-brand-100">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center text-white font-display font-800 text-lg shrink-0">MZ</div>
+              <div>
+                <div class="font-display font-700 text-brand-900">Md Zaid</div>
+                <div class="text-brand-600 text-sm">Director, ZAIDONN Taxation Farm</div>
+                <div class="text-gray-800 text-xs">Asansol, West Bengal · +91 74820 49372</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="reveal">
+        <span class="section-label">About Us</span>
+        <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-5 leading-tight">
+          Your Trusted Partner in<br/>
+          <span class="text-brand-500">Tax Compliance</span>
+        </h2>
+        <p class="text-gray-600 text-lg leading-relaxed mb-6">
+          ZAIDONN Taxation Farm is a full-service taxation consultancy based in Asansol. We combine deep regulatory knowledge with a client-first philosophy — ensuring every individual, startup and enterprise we serve stays compliant, optimised and confident.
+        </p>
+        <p class="text-gray-800 leading-relaxed mb-8">
+          Our tagline says it best: <strong class="text-brand-700">Driving Compliance. Creating Prosperity.</strong> We don't just file returns — we build lasting financial health for our clients.
+        </p>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="flex items-start gap-3 p-4 rounded-2xl bg-white shadow-sm border border-brand-50">
+            <div class="w-9 h-9 rounded-xl bg-brand-100 flex items-center justify-center shrink-0">
+              <i data-lucide="check-circle" class="w-5 h-5 text-brand-600"></i>
+            </div>
+            <div>
+              <div class="font-display font-700 text-sm text-brand-900">Experienced Team</div>
+              <div class="text-gray-800 text-xs mt-0.5">CAs & Tax Experts</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-4 rounded-2xl bg-white shadow-sm border border-brand-50">
+            <div class="w-9 h-9 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
+              <i data-lucide="shield" class="w-5 h-5 text-green-600"></i>
+            </div>
+            <div>
+              <div class="font-display font-700 text-sm text-brand-900">Fully Secure</div>
+              <div class="text-gray-800 text-xs mt-0.5">Your data is safe</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-4 rounded-2xl bg-white shadow-sm border border-brand-50">
+            <div class="w-9 h-9 rounded-xl bg-yellow-100 flex items-center justify-center shrink-0">
+              <i data-lucide="zap" class="w-5 h-5 text-yellow-600"></i>
+            </div>
+            <div>
+              <div class="font-display font-700 text-sm text-brand-900">Fast Turnaround</div>
+              <div class="text-gray-800 text-xs mt-0.5">On-time every time</div>
+            </div>
+          </div>
+          <div class="flex items-start gap-3 p-4 rounded-2xl bg-white shadow-sm border border-brand-50">
+            <div class="w-9 h-9 rounded-xl bg-purple-100 flex items-center justify-center shrink-0">
+              <i data-lucide="headphones" class="w-5 h-5 text-purple-600"></i>
+            </div>
+            <div>
+              <div class="font-display font-700 text-sm text-brand-900">24/7 Support</div>
+              <div class="text-gray-800 text-xs mt-0.5">Always reachable</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── SERVICES ─────────────────────── -->
+<section id="services" class="py-24 bg-white relative overflow-hidden">
+  <div class="absolute top-0 right-0 w-96 h-96 rounded-full bg-brand-50 opacity-60 -translate-y-1/2 translate-x-1/2 blur-3xl pointer-events-none"></div>
+
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16 reveal">
+      <span class="section-label">What We Offer</span>
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-4 leading-tight">
+        Comprehensive Tax &<br/>
+        <span class="text-brand-500">Financial Services</span>
+      </h2>
+      <p class="text-gray-700 max-w-xl mx-auto text-lg">
+        From GST to audits, we cover every aspect of your financial compliance with precision and expertise.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- Service 1 -->
+      <div class="service-card glass-card rounded-3xl p-7 reveal delay-100">
+        <div class="service-icon-wrap w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center mb-5 shadow-lg">
+          <i data-lucide="receipt-text" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">GST Registration & Filing</h3>
+        <p class="text-gray-800 text-sm leading-relaxed mb-4">Complete GST setup, monthly/quarterly returns, reconciliation and advisory. Zero penalties, guaranteed.</p>
+        <ul class="space-y-1.5 text-xs text-gray-700">
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-500"></i> New GST Registration</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-500"></i> GSTR-1, 3B Filing</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-500"></i> ITC Reconciliation</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-500"></i> GST Notices & Appeals</li>
+        </ul>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card glass-card rounded-3xl p-7 reveal delay-200">
+        <div class="service-icon-wrap w-14 h-14 rounded-2xl bg-gradient-to-br from-green-500 to-green-700 flex items-center justify-center mb-5 shadow-lg">
+          <i data-lucide="file-text" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Income Tax (ITR)</h3>
+        <p class="text-gray-800 text-sm leading-relaxed mb-4">Individual, HUF, partnership and corporate ITR filing with maximum deductions and refund optimisation.</p>
+        <ul class="space-y-1.5 text-xs text-gray-700">
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-green-500"></i> ITR-1 to ITR-6</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-green-500"></i> Tax Planning</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-green-500"></i> TDS Returns</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-green-500"></i> Advance Tax Advisory</li>
+        </ul>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card glass-card rounded-3xl p-7 reveal delay-300">
+        <div class="service-icon-wrap w-14 h-14 rounded-2xl bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center mb-5 shadow-lg">
+          <i data-lucide="briefcase" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Business Licences</h3>
+        <p class="text-gray-800 text-sm leading-relaxed mb-4">End-to-end business registration and licensing support, from sole proprietorship to private limited companies.</p>
+        <ul class="space-y-1.5 text-xs text-gray-700">
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-yellow-500"></i> Company Registration</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-yellow-500"></i> MSME / Udyam</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-yellow-500"></i> Trade Licence</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-yellow-500"></i> FSSAI / Shops Act</li>
+        </ul>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="service-card glass-card rounded-3xl p-7 reveal delay-400">
+        <div class="service-icon-wrap w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-800 flex items-center justify-center mb-5 shadow-lg">
+          <i data-lucide="bar-chart-2" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Accounts & Audit</h3>
+        <p class="text-gray-800 text-sm leading-relaxed mb-4">Professional bookkeeping, financial statements, statutory and internal audits for complete transparency.</p>
+        <ul class="space-y-1.5 text-xs text-gray-700">
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-500"></i> Bookkeeping</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-500"></i> Financial Statements</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-500"></i> Statutory Audit</li>
+          <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-500"></i> ROC Filings</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Extra 4 services row -->
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
+      <div class="service-card flex items-center gap-4 p-5 rounded-2xl bg-brand-50 border border-brand-100 reveal delay-100">
+        <div class="w-10 h-10 rounded-xl bg-brand-100 flex items-center justify-center shrink-0">
+          <i data-lucide="building-2" class="w-5 h-5 text-brand-600"></i>
+        </div>
+        <div>
+          <div class="font-display font-700 text-sm text-brand-900">Company Secretarial</div>
+          <div class="text-gray-800 text-xs">ROC compliance & filings</div>
+        </div>
+      </div>
+      <div class="service-card flex items-center gap-4 p-5 rounded-2xl bg-green-50 border border-green-100 reveal delay-200">
+        <div class="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center shrink-0">
+          <i data-lucide="percent" class="w-5 h-5 text-green-600"></i>
+        </div>
+        <div>
+          <div class="font-display font-700 text-sm text-brand-900">TDS / TCS Returns</div>
+          <div class="text-gray-800 text-xs">Form 24Q, 26Q, 27Q</div>
+        </div>
+      </div>
+      <div class="service-card flex items-center gap-4 p-5 rounded-2xl bg-yellow-50 border border-yellow-100 reveal delay-300">
+        <div class="w-10 h-10 rounded-xl bg-yellow-100 flex items-center justify-center shrink-0">
+          <i data-lucide="users" class="w-5 h-5 text-yellow-600"></i>
+        </div>
+        <div>
+          <div class="font-display font-700 text-sm text-brand-900">Payroll Services</div>
+          <div class="text-gray-800 text-xs">ESI, PF & salary slips</div>
+        </div>
+      </div>
+      <div class="service-card flex items-center gap-4 p-5 rounded-2xl bg-purple-50 border border-purple-100 reveal delay-400">
+        <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center shrink-0">
+          <i data-lucide="lightbulb" class="w-5 h-5 text-purple-600"></i>
+        </div>
+        <div>
+          <div class="font-display font-700 text-sm text-brand-900">Tax Advisory</div>
+          <div class="text-gray-800 text-xs">Strategy & planning</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── WHO WE HELP ─────────────────────── -->
+<section id="who-we-help" class="py-24 mesh-bg">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16 reveal">
+      <span class="section-label">Who We Help</span>
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-4">
+        Built for Every Business <span class="text-brand-500">Size</span>
+      </h2>
+      <p class="text-gray-700 max-w-xl mx-auto text-lg">
+        Whether you're a solo freelancer or a growing enterprise, ZAIDONN has a tailored solution for you.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Card template -->
+      <div class="glass-card rounded-3xl p-7 reveal delay-100 group hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+          <i data-lucide="user" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Individuals & Salaried</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">Get your ITR filed accurately, claim maximum deductions, and receive expert guidance on your tax saving investments.</p>
+      </div>
+      <div class="glass-card rounded-3xl p-7 reveal delay-200 group hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+          <i data-lucide="store" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Small Businesses & Shops</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">GST registration, returns, bookkeeping and licence management — all in one place, without any hassle.</p>
+      </div>
+      <div class="glass-card rounded-3xl p-7 reveal delay-300 group hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-yellow-500 to-orange-500 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+          <i data-lucide="rocket" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Startups & New Ventures</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">Company registration, MSME, startup India recognition, GST setup and all compliances from day one.</p>
+      </div>
+      <div class="glass-card rounded-3xl p-7 reveal delay-100 group hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+          <i data-lucide="briefcase" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Professionals & Freelancers</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">Doctors, lawyers, consultants, designers — we handle your GST, ITR and professional tax with zero fuss.</p>
+      </div>
+      <div class="glass-card rounded-3xl p-7 reveal delay-200 group hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-rose-500 to-pink-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+          <i data-lucide="building" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Pvt Ltd / LLP Companies</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">Full ROC compliance, annual filings, statutory audit, and financial statement preparation for growing companies.</p>
+      </div>
+      <div class="glass-card rounded-3xl p-7 reveal delay-300 group hover:-translate-y-2 transition-transform duration-300">
+        <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-500 to-brand-600 flex items-center justify-center mb-5 group-hover:scale-110 transition-transform duration-300">
+          <i data-lucide="wheat" class="w-7 h-7 text-white"></i>
+        </div>
+        <h3 class="font-display font-700 text-xl text-brand-900 mb-2">Traders & Manufacturers</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">GST reconciliation, e-way bills, audit support and accounts management tailored for trading and manufacturing businesses.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── HOW WE WORK ─────────────────────── -->
+<section id="how-we-work" class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16 reveal">
+      <span class="section-label">Our Process</span>
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-4">
+        Simple. Transparent. <span class="text-brand-500">Effective.</span>
+      </h2>
+      <p class="text-gray-700 max-w-xl mx-auto text-lg">
+        Our streamlined 4-step process gets you compliant quickly with zero confusion.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+
+      <!-- Steps -->
+      <div class="text-center reveal delay-100">
+        <div class="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 shadow-xl mb-5 mx-auto">
+          <span class="font-display font-800 text-2xl text-white">1</span>
+          <div class="absolute -inset-1 rounded-2xl border-2 border-brand-200 animate-ping opacity-20"></div>
+        </div>
+        <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Free Consultation</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">Tell us about your business and tax needs. We assess your situation at zero cost.</p>
+      </div>
+
+      <div class="text-center reveal delay-200">
+        <div class="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-green-500 to-green-700 shadow-xl mb-5 mx-auto">
+          <span class="font-display font-800 text-2xl text-white">2</span>
+        </div>
+        <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Document Collection</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">We provide a simple checklist. You upload documents digitally or hand them over in person.</p>
+      </div>
+
+      <div class="text-center reveal delay-300">
+        <div class="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-500 to-orange-500 shadow-xl mb-5 mx-auto">
+          <span class="font-display font-800 text-2xl text-white">3</span>
+        </div>
+        <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Expert Processing</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">Our team processes, verifies and files everything with accuracy — keeping you updated throughout.</p>
+      </div>
+
+      <div class="text-center reveal delay-400">
+        <div class="relative inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-700 shadow-xl mb-5 mx-auto">
+          <span class="font-display font-800 text-2xl text-white">4</span>
+        </div>
+        <h3 class="font-display font-700 text-lg text-brand-900 mb-2">Delivery & Support</h3>
+        <p class="text-gray-800 text-sm leading-relaxed">Receive confirmation, acknowledgements and ongoing support for future compliance cycles.</p>
+      </div>
+
+    </div>
+
+    <!-- CTA inside process -->
+    <div class="mt-14 text-center reveal">
+      <a href="#contact" class="inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-gradient-to-r from-brand-600 to-brand-500 text-white font-display font-700 text-base hover:from-brand-700 hover:to-brand-600 transition-all duration-300 shadow-xl hover:shadow-brand-500/40 hover:-translate-y-1">
+        Start Your Journey Today
+        <i data-lucide="arrow-right" class="w-5 h-5"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── CTA BANNER ─────────────────────── -->
+<section class="py-20 grid-overlay relative overflow-hidden" style="background: linear-gradient(135deg, #001654 0%, #003ec0 50%, #0050e8 100%);">
+  <div class="orb orb-1" style="opacity:0.2;"></div>
+  <div class="max-w-5xl mx-auto px-4 text-center relative">
+    <span class="badge badge-white mb-6 inline-flex">
+      <i data-lucide="gift" class="w-3.5 h-3.5"></i>
+      Limited Time: Free First Consultation
+    </span>
+    <h2 class="font-display font-800 text-4xl md:text-6xl text-white leading-tight mb-6 reveal">
+      Ready to Get Your Taxes<br/>
+      <span class="shimmer-text">Done Right?</span>
+    </h2>
+    <p class="text-white/95 text-xl mb-10 reveal delay-100">
+      Join 500+ clients who trust ZAIDONN for stress-free compliance.
+    </p>
+    <div class="flex flex-wrap justify-center gap-4 reveal delay-200">
+      <a href="tel:+917482049372" class="flex items-center gap-2 px-7 py-4 rounded-2xl bg-white text-brand-800 font-display font-700 text-base hover:bg-brand-50 transition-all shadow-xl">
+        <i data-lucide="phone-call" class="w-5 h-5"></i>
+        Call Now: +91 74820 49372
+      </a>
+      <a href="https://wa.me/917482049372" target="_blank" class="flex items-center gap-2 px-7 py-4 rounded-2xl bg-green-500 text-white font-display font-700 text-base hover:bg-green-600 transition-all shadow-xl">
+        <i data-lucide="message-circle" class="w-5 h-5"></i>
+        WhatsApp Us
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── TESTIMONIALS ─────────────────────── -->
+<section id="testimonials" class="py-24 mesh-bg">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-16 reveal">
+      <span class="section-label">Client Reviews</span>
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-4">
+        What Our Clients <span class="text-brand-500">Say</span>
+      </h2>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <div class="testi-card glass-card rounded-3xl p-7 reveal delay-100">
+        <div class="flex gap-1 mb-4">
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">"ZAIDONN made GST filing effortless for my clothing business. Md Zaid personally ensured everything was filed on time. No penalties ever. Highly recommend!"</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-brand-100 flex items-center justify-center font-display font-700 text-brand-700">RK</div>
+          <div>
+            <div class="font-display font-700 text-sm text-brand-900">Rajesh Kumar</div>
+            <div class="text-gray-600 text-xs">Clothing Retailer, Asansol</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card glass-card rounded-3xl p-7 reveal delay-200">
+        <div class="flex gap-1 mb-4">
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">"We were a new startup and ZAIDONN handled our complete company registration, GST, and first year ITR. Professional, transparent and incredibly responsive."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-green-100 flex items-center justify-center font-display font-700 text-green-700">PS</div>
+          <div>
+            <div class="font-display font-700 text-sm text-brand-900">Priya Sharma</div>
+            <div class="text-gray-600 text-xs">Co-founder, TechStartup Pvt Ltd</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card glass-card rounded-3xl p-7 reveal delay-300">
+        <div class="flex gap-1 mb-4">
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">"I've been filing ITR with ZAIDONN for 4 years. Their tax planning advice saved me over ₹40,000 last year. Best investment I've made for my finances."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-yellow-100 flex items-center justify-center font-display font-700 text-yellow-700">AM</div>
+          <div>
+            <div class="font-display font-700 text-sm text-brand-900">Arjun Mishra</div>
+            <div class="text-gray-600 text-xs">Software Engineer, Durgapur</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card glass-card rounded-3xl p-7 reveal delay-100">
+        <div class="flex gap-1 mb-4">
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">"As a doctor, accounting was always my weak point. ZAIDONN manages all my professional tax, GST and bookkeeping. They're prompt and absolutely reliable."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center font-display font-700 text-purple-700">DG</div>
+          <div>
+            <div class="font-display font-700 text-sm text-brand-900">Dr. Deepa Gupta</div>
+            <div class="text-gray-600 text-xs">Physician, Asansol</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card glass-card rounded-3xl p-7 reveal delay-200">
+        <div class="flex gap-1 mb-4">
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">"Outstanding service! They handled our restaurant's FSSAI licence, GST and annual accounts smoothly. Very affordable considering the quality of work."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-rose-100 flex items-center justify-center font-display font-700 text-rose-700">SK</div>
+          <div>
+            <div class="font-display font-700 text-sm text-brand-900">Suresh Khan</div>
+            <div class="text-gray-600 text-xs">Restaurant Owner, Asansol</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card glass-card rounded-3xl p-7 reveal delay-300">
+        <div class="flex gap-1 mb-4">
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+          <i data-lucide="star" class="w-4 h-4 fill-yellow-400 text-yellow-400"></i>
+        </div>
+        <p class="text-gray-600 text-sm leading-relaxed mb-5">"We switched to ZAIDONN after bad experiences with two other firms. The difference is night and day — accurate, timely, and always available on WhatsApp."</p>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-cyan-100 flex items-center justify-center font-display font-700 text-cyan-700">NB</div>
+          <div>
+            <div class="font-display font-700 text-sm text-brand-900">Neha Bose</div>
+            <div class="text-gray-600 text-xs">Managing Director, NB Traders</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── DOWNLOAD APP ─────────────────────── -->
+<section id="app" class="py-24 grid-overlay relative overflow-hidden" style="background: linear-gradient(150deg, #001654 0%, #002882 40%, #003ec0 100%);">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+      <!-- Content -->
+      <div class="reveal-left">
+        <span class="badge badge-white mb-6 inline-flex">
+          <i data-lucide="smartphone" class="w-3.5 h-3.5"></i>
+          ZAIDONN Mobile App
+        </span>
+        <h2 class="font-display font-800 text-4xl md:text-5xl text-white leading-tight mb-5">
+          Manage Your Taxes<br/>
+          <span class="shimmer-text">On the Go</span>
+        </h2>
+        <p class="text-white/95 text-lg leading-relaxed mb-6">
+          The ZAIDONN App puts your entire tax compliance dashboard in your pocket. Track filings, receive reminders, upload documents and chat with your advisor — anytime, anywhere.
+        </p>
+
+        <!-- Security badge -->
+        <div class="glass-solid rounded-2xl p-5 mb-8 border border-green-400/40">
+          <div class="flex items-center gap-3 mb-3">
+            <div class="w-10 h-10 rounded-xl bg-green-500/20 flex items-center justify-center">
+              <i data-lucide="shield-check" class="w-6 h-6 text-green-400"></i>
+            </div>
+            <div>
+              <div class="font-display font-700 text-white">100% Safe & Secure</div>
+              <div class="text-green-300 text-sm">Bank-grade encryption for your data</div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-2 text-xs text-white/95">
+            <div class="flex items-center gap-1.5"><i data-lucide="lock" class="w-3.5 h-3.5 text-green-400"></i> 256-bit SSL Encryption</div>
+            <div class="flex items-center gap-1.5"><i data-lucide="eye-off" class="w-3.5 h-3.5 text-green-400"></i> No data sold to third parties</div>
+            <div class="flex items-center gap-1.5"><i data-lucide="server" class="w-3.5 h-3.5 text-green-400"></i> Secure Indian servers</div>
+            <div class="flex items-center gap-1.5"><i data-lucide="user-check" class="w-3.5 h-3.5 text-green-400"></i> GDPR & IT Act compliant</div>
+          </div>
+        </div>
+
+        <!-- How to Download -->
+        <h3 class="font-display font-700 text-white text-xl mb-4 flex items-center gap-2">
+          <i data-lucide="download" class="w-5 h-5 text-blue-300"></i>
+          How to Download the App
+        </h3>
+        <div class="space-y-3 mb-8">
+          <div class="glass-solid rounded-xl p-4 flex items-center gap-4">
+            <div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center font-display font-700 text-white text-sm shrink-0">1</div>
+            <div class="text-white text-sm">Contact us on <strong class="text-white">WhatsApp at +91 74820 49372</strong> or call to request the app download link.</div>
+          </div>
+          <div class="glass-solid rounded-xl p-4 flex items-center gap-4">
+            <div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center font-display font-700 text-white text-sm shrink-0">2</div>
+            <div class="text-white text-sm">We'll send you a secure APK download link directly to your WhatsApp or email.</div>
+          </div>
+          <div class="glass-solid rounded-xl p-4 flex items-center gap-4">
+            <div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center font-display font-700 text-white text-sm shrink-0">3</div>
+            <div class="text-white text-sm">On your Android phone, go to <strong class="text-white">Settings → Security → Allow Unknown Sources</strong> (one-time step).</div>
+          </div>
+          <div class="glass-solid rounded-xl p-4 flex items-center gap-4">
+            <div class="w-8 h-8 rounded-lg bg-brand-500 flex items-center justify-center font-display font-700 text-white text-sm shrink-0">4</div>
+            <div class="text-white text-sm">Open the downloaded APK, tap <strong class="text-white">Install</strong>, and log in with your ZAIDONN credentials. That's it!</div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="https://wa.me/917482049372?text=Hi%2C%20I%20want%20to%20download%20the%20ZAIDONN%20app" target="_blank"
+             class="flex items-center gap-2 px-6 py-3.5 rounded-2xl bg-green-500 text-white font-display font-700 text-sm hover:bg-green-600 transition-all shadow-lg">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            Get App via WhatsApp
+          </a>
+          <a href="mailto:info@zaidonn.com?subject=ZAIDONN%20App%20Download%20Request"
+             class="flex items-center gap-2 px-6 py-3.5 rounded-2xl text-white font-display font-600 text-sm transition-all" style="background:rgba(255,255,255,0.18);border:1px solid rgba(255,255,255,0.4);">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+            Request via Email
+          </a>
+        </div>
+      </div>
+
+      <!-- Phone mockup -->
+      <div class="flex items-center justify-center reveal-right">
+        <div class="phone-mockup relative">
+          <!-- Phone frame -->
+          <div class="relative w-72 h-[580px] rounded-[3rem] bg-gradient-to-b from-gray-800 to-gray-900 shadow-2xl border-4 border-gray-700 overflow-hidden mx-auto">
+            <!-- Screen -->
+            <div class="absolute inset-2 rounded-[2.5rem] bg-gradient-to-b from-brand-900 to-brand-950 overflow-hidden">
+              <!-- Status bar -->
+              <div class="flex justify-between items-center px-5 pt-3 pb-2">
+                <span class="text-white text-xs font-medium">9:41</span>
+                <div class="flex gap-1">
+                  <i data-lucide="wifi" class="w-3 h-3 text-white"></i>
+                  <i data-lucide="battery-full" class="w-3 h-3 text-white"></i>
+                </div>
+              </div>
+              <!-- Notch -->
+              <div class="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-6 bg-gray-900 rounded-b-2xl"></div>
+              <!-- App content -->
+              <div class="px-4 pt-2">
+                <!-- Header -->
+                <div class="flex items-center justify-between mb-4">
+                  <div>
+                    <div class="text-white/95 text-xs">Welcome back,</div>
+                    <div class="text-white font-display font-700 text-sm">Rajesh Kumar</div>
+                  </div>
+                  <div class="w-8 h-8 rounded-full bg-brand-500 flex items-center justify-center text-white text-xs font-bold">RK</div>
+                </div>
+                <!-- Status card -->
+                <div class="rounded-2xl bg-gradient-to-r from-brand-500 to-brand-600 p-4 mb-4">
+                  <div class="text-white/95 text-xs mb-1">GST Filing Status</div>
+                  <div class="text-white font-display font-700 text-base">March 2025 ✓</div>
+                  <div class="text-green-300 text-xs mt-1">Filed & Acknowledged</div>
+                </div>
+                <!-- Quick actions -->
+                <div class="grid grid-cols-3 gap-2 mb-4">
+                  <div class="rounded-xl bg-white/10 p-2.5 text-center">
+                    <i data-lucide="file-text" class="w-4 h-4 text-blue-300 mx-auto mb-1"></i>
+                    <div class="text-white text-xs">ITR</div>
+                  </div>
+                  <div class="rounded-xl bg-white/10 p-2.5 text-center">
+                    <i data-lucide="receipt" class="w-4 h-4 text-green-300 mx-auto mb-1"></i>
+                    <div class="text-white text-xs">GST</div>
+                  </div>
+                  <div class="rounded-xl bg-white/10 p-2.5 text-center">
+                    <i data-lucide="upload" class="w-4 h-4 text-yellow-300 mx-auto mb-1"></i>
+                    <div class="text-white text-xs">Upload</div>
+                  </div>
+                </div>
+                <!-- Recent -->
+                <div class="text-white/95 text-xs mb-2">Recent Activity</div>
+                <div class="space-y-2">
+                  <div class="flex items-center gap-2 rounded-xl bg-white/10 p-2.5">
+                    <div class="w-6 h-6 rounded-lg bg-green-500/30 flex items-center justify-center"><i data-lucide="check" class="w-3 h-3 text-green-400"></i></div>
+                    <div><div class="text-white text-xs font-medium">GSTR-3B Filed</div><div class="text-white/85 text-xs">15 Mar 2025</div></div>
+                  </div>
+                  <div class="flex items-center gap-2 rounded-xl bg-white/10 p-2.5">
+                    <div class="w-6 h-6 rounded-lg bg-yellow-500/30 flex items-center justify-center"><i data-lucide="clock" class="w-3 h-3 text-yellow-400"></i></div>
+                    <div><div class="text-white text-xs font-medium">ITR Due: 31 Jul</div><div class="text-white/85 text-xs">Reminder set</div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Home indicator -->
+            <div class="absolute bottom-3 left-1/2 -translate-x-1/2 w-24 h-1 bg-white/40 rounded-full"></div>
+          </div>
+          <!-- Glow under phone -->
+          <div class="absolute -bottom-4 left-1/2 -translate-x-1/2 w-48 h-8 bg-brand-500 opacity-30 blur-2xl rounded-full"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── WHY CHOOSE US ─────────────────────── -->
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-14 reveal">
+      <span class="section-label">Why ZAIDONN</span>
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-4">
+        The ZAIDONN <span class="text-brand-500">Advantage</span>
+      </h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="flex items-start gap-4 p-6 rounded-2xl bg-brand-50 border border-brand-100 reveal delay-100">
+        <div class="w-11 h-11 rounded-2xl bg-brand-600 flex items-center justify-center shrink-0">
+          <i data-lucide="award" class="w-5 h-5 text-white"></i>
+        </div>
+        <div>
+          <h4 class="font-display font-700 text-brand-900 mb-1">Certified Professionals</h4>
+          <p class="text-gray-800 text-sm">Our team includes qualified CAs, CS and tax practitioners with years of hands-on experience.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 rounded-2xl bg-green-50 border border-green-100 reveal delay-200">
+        <div class="w-11 h-11 rounded-2xl bg-green-600 flex items-center justify-center shrink-0">
+          <i data-lucide="clock" class="w-5 h-5 text-white"></i>
+        </div>
+        <div>
+          <h4 class="font-display font-700 text-brand-900 mb-1">On-Time Filing, Every Time</h4>
+          <p class="text-gray-800 text-sm">We've never missed a deadline. Our internal tracking ensures your filings are always ahead of schedule.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 rounded-2xl bg-yellow-50 border border-yellow-100 reveal delay-300">
+        <div class="w-11 h-11 rounded-2xl bg-yellow-500 flex items-center justify-center shrink-0">
+          <i data-lucide="indian-rupee" class="w-5 h-5 text-white"></i>
+        </div>
+        <div>
+          <h4 class="font-display font-700 text-brand-900 mb-1">Transparent Pricing</h4>
+          <p class="text-gray-800 text-sm">No hidden charges. We quote upfront, deliver fully, and charge only what was agreed — nothing more.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 rounded-2xl bg-purple-50 border border-purple-100 reveal delay-100">
+        <div class="w-11 h-11 rounded-2xl bg-purple-600 flex items-center justify-center shrink-0">
+          <i data-lucide="message-square" class="w-5 h-5 text-white"></i>
+        </div>
+        <div>
+          <h4 class="font-display font-700 text-brand-900 mb-1">WhatsApp-Accessible</h4>
+          <p class="text-gray-800 text-sm">Reach your advisor instantly via WhatsApp. No lengthy calls or email chains — quick, clear responses.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 rounded-2xl bg-rose-50 border border-rose-100 reveal delay-200">
+        <div class="w-11 h-11 rounded-2xl bg-rose-500 flex items-center justify-center shrink-0">
+          <i data-lucide="map-pin" class="w-5 h-5 text-white"></i>
+        </div>
+        <div>
+          <h4 class="font-display font-700 text-brand-900 mb-1">Local Expertise</h4>
+          <p class="text-gray-800 text-sm">Based in Asansol, we understand the local business landscape and serve clients across West Bengal and beyond.</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-4 p-6 rounded-2xl bg-cyan-50 border border-cyan-100 reveal delay-300">
+        <div class="w-11 h-11 rounded-2xl bg-cyan-600 flex items-center justify-center shrink-0">
+          <i data-lucide="rotate-ccw" class="w-5 h-5 text-white"></i>
+        </div>
+        <div>
+          <h4 class="font-display font-700 text-brand-900 mb-1">Year-Round Support</h4>
+          <p class="text-gray-800 text-sm">Our relationship doesn't end at filing. We provide year-round advisory, reminders and proactive compliance alerts.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── GET IN TOUCH / CONTACT ─────────────────────── -->
+<section id="contact" class="py-24 mesh-bg">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="text-center mb-14 reveal">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-4">
+        Let's Start Your<br/>
+        <span class="text-brand-500">Compliance Journey</span>
+      </h2>
+      <p class="text-gray-700 max-w-xl mx-auto text-lg">
+        Reach out for a free consultation. No commitments, no fees — just expert guidance.
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12 items-start">
+
+      <!-- Contact form -->
+      <div class="glass-card rounded-3xl p-8 reveal-left">
+        <h3 class="font-display font-700 text-2xl text-brand-900 mb-6">Send Us a Message</h3>
+        <form id="contact-form" onsubmit="sendToWhatsApp(event)" class="space-y-5">
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div>
+              <label class="block text-sm font-semibold text-gray-900 mb-1.5">Full Name *</label>
+              <input type="text" required placeholder="Your full name"
+                class="w-full px-4 py-3 rounded-xl border border-brand-100 bg-white/80 text-gray-800 placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 focus:border-transparent transition" />
+            </div>
+            <div>
+              <label class="block text-sm font-semibold text-gray-900 mb-1.5">Phone Number *</label>
+              <input type="tel" required placeholder="+91 XXXXX XXXXX"
+                class="w-full px-4 py-3 rounded-xl border border-brand-100 bg-white/80 text-gray-800 placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 focus:border-transparent transition" />
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-900 mb-1.5">Email Address</label>
+            <input type="email" placeholder="your@email.com"
+              class="w-full px-4 py-3 rounded-xl border border-brand-100 bg-white/80 text-gray-800 placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 focus:border-transparent transition" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-900 mb-1.5">Service Required</label>
+            <select class="w-full px-4 py-3 rounded-xl border border-brand-100 bg-white/80 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 transition">
+              <option value="">Select a service...</option>
+              <option>GST Registration & Filing</option>
+              <option>Income Tax Return (ITR)</option>
+              <option>Business Licence / Registration</option>
+              <option>Accounts & Audit</option>
+              <option>TDS / TCS Returns</option>
+              <option>Tax Advisory & Planning</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-900 mb-1.5">Message</label>
+            <textarea rows="4" placeholder="Briefly describe your requirement..."
+              class="w-full px-4 py-3 rounded-xl border border-brand-100 bg-white/80 text-gray-800 placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-brand-400 focus:border-transparent transition resize-none"></textarea>
+          </div>
+          <button type="submit"
+            class="w-full py-4 rounded-2xl bg-gradient-to-r from-brand-600 to-brand-500 text-white font-display font-700 text-base hover:from-brand-700 hover:to-brand-600 transition-all duration-300 shadow-xl hover:shadow-brand-500/40 hover:-translate-y-0.5 flex items-center justify-center gap-2">
+            <i data-lucide="send" class="w-5 h-5"></i>
+            Send Message
+          </button>
+        </form>
+        <div id="form-success" class="hidden mt-4 p-4 rounded-xl bg-green-50 border border-green-200 text-green-700 text-sm text-center font-medium">
+          ✓ Thank you! We'll get back to you within 24 hours.
+        </div>
+      </div>
+
+      <!-- Contact info -->
+      <div class="reveal-right space-y-5">
+        <!-- Director card -->
+        <div class="glass-card rounded-3xl p-7">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center text-white font-display font-800 text-2xl">MZ</div>
+            <div>
+              <div class="font-display font-800 text-xl text-brand-900">Md Zaid</div>
+              <div class="text-brand-700 font-semibold">Director, ZAIDONN Taxation Farm</div>
+            </div>
+          </div>
+          <div class="space-y-3">
+            <a href="tel:+917482049372" class="flex items-center gap-3 p-3 rounded-xl bg-brand-50 hover:bg-brand-100 transition group">
+              <div class="w-9 h-9 rounded-lg bg-brand-500 flex items-center justify-center shrink-0">
+                <i data-lucide="phone" class="w-4 h-4 text-white"></i>
+              </div>
+              <div>
+                <div class="text-xs text-gray-700">Phone / WhatsApp</div>
+                <div class="font-medium text-brand-800 group-hover:text-brand-600 transition">+91 74820 49372</div>
+              </div>
+            </a>
+            <a href="https://www.zaidonn.com" target="_blank" class="flex items-center gap-3 p-3 rounded-xl bg-brand-50 hover:bg-brand-100 transition group">
+              <div class="w-9 h-9 rounded-lg bg-brand-500 flex items-center justify-center shrink-0">
+                <i data-lucide="globe" class="w-4 h-4 text-white"></i>
+              </div>
+              <div>
+                <div class="text-xs text-gray-700">Website</div>
+                <div class="font-medium text-brand-800 group-hover:text-brand-600 transition">www.zaidonn.com</div>
+              </div>
+            </a>
+            <div class="flex items-center gap-3 p-3 rounded-xl bg-brand-50">
+              <div class="w-9 h-9 rounded-lg bg-brand-500 flex items-center justify-center shrink-0">
+                <i data-lucide="map-pin" class="w-4 h-4 text-white"></i>
+              </div>
+              <div>
+                <div class="text-xs text-gray-700">Office Address</div>
+                <div class="font-medium text-brand-800">Asansol, West Bengal</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hours -->
+        <div class="glass-card rounded-3xl p-7">
+          <h4 class="font-display font-700 text-brand-900 text-lg mb-4 flex items-center gap-2">
+            <i data-lucide="clock" class="w-5 h-5 text-brand-500"></i>
+            Business Hours
+          </h4>
+          <div class="space-y-2 text-sm">
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-600">Monday – Saturday</span>
+              <span class="font-medium text-brand-800">9:00 AM – 7:00 PM</span>
+            </div>
+            <div class="flex justify-between py-2 border-b border-gray-100">
+              <span class="text-gray-600">Sunday</span>
+              <span class="font-medium text-gray-600">By Appointment</span>
+            </div>
+            <div class="flex justify-between py-2">
+              <span class="text-gray-600">WhatsApp Support</span>
+              <span class="font-medium text-green-600">24/7 Available</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick actions -->
+        <div class="grid grid-cols-2 gap-4">
+          <a href="https://wa.me/917482049372" target="_blank" class="flex flex-col items-center gap-2 p-5 rounded-2xl bg-green-500 text-white hover:bg-green-600 transition shadow-lg text-center">
+            <i data-lucide="message-circle" class="w-7 h-7"></i>
+            <div class="font-display font-700 text-sm">WhatsApp</div>
+            <div class="text-xs text-green-100">Chat instantly</div>
+          </a>
+          <a href="tel:+917482049372" class="flex flex-col items-center gap-2 p-5 rounded-2xl bg-brand-600 text-white hover:bg-brand-700 transition shadow-lg text-center">
+            <i data-lucide="phone-call" class="w-7 h-7"></i>
+            <div class="font-display font-700 text-sm">Call Now</div>
+            <div class="text-xs text-brand-200">+91 74820 49372</div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── FAQ ─────────────────────── -->
+<section class="py-24 bg-white">
+  <div class="max-w-4xl mx-auto px-4">
+    <div class="text-center mb-14 reveal">
+      <span class="section-label">FAQ</span>
+      <h2 class="font-display font-800 text-4xl md:text-5xl text-brand-900 mt-3 mb-4">
+        Frequently Asked <span class="text-brand-500">Questions</span>
+      </h2>
+    </div>
+    <div class="space-y-3 reveal">
+      <!-- FAQ items -->
+      <div class="faq-item glass-card rounded-2xl overflow-hidden">
+        <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-5 text-left">
+          <span class="font-display font-700 text-brand-900">What documents are needed for GST registration?</span>
+          <i data-lucide="plus" class="w-5 h-5 text-brand-500 shrink-0 faq-icon transition-transform"></i>
+        </button>
+        <div class="faq-answer hidden px-5 pb-5 text-gray-800 text-sm leading-relaxed">
+          Typically: PAN card, Aadhaar card, proof of business address (electricity bill/rent agreement), bank account details, and photographs. For companies, additional documents like MOA, AOA and board resolutions are needed. We'll provide you a complete checklist specific to your business type.
+        </div>
+      </div>
+      <div class="faq-item glass-card rounded-2xl overflow-hidden">
+        <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-5 text-left">
+          <span class="font-display font-700 text-brand-900">How long does GST registration take?</span>
+          <i data-lucide="plus" class="w-5 h-5 text-brand-500 shrink-0 faq-icon transition-transform"></i>
+        </button>
+        <div class="faq-answer hidden px-5 pb-5 text-gray-800 text-sm leading-relaxed">
+          GST registration typically takes 3–7 working days from the time all documents are submitted correctly. We ensure error-free applications so there are no unnecessary delays or queries from the GST portal.
+        </div>
+      </div>
+      <div class="faq-item glass-card rounded-2xl overflow-hidden">
+        <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-5 text-left">
+          <span class="font-display font-700 text-brand-900">Can you help with ITR for previous years?</span>
+          <i data-lucide="plus" class="w-5 h-5 text-brand-500 shrink-0 faq-icon transition-transform"></i>
+        </button>
+        <div class="faq-answer hidden px-5 pb-5 text-gray-800 text-sm leading-relaxed">
+          Yes! We can help file belated or updated ITRs for previous assessment years as permitted under the Income Tax Act. We also assist in responding to income tax notices for prior years.
+        </div>
+      </div>
+      <div class="faq-item glass-card rounded-2xl overflow-hidden">
+        <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-5 text-left">
+          <span class="font-display font-700 text-brand-900">Is my financial data safe with ZAIDONN?</span>
+          <i data-lucide="plus" class="w-5 h-5 text-brand-500 shrink-0 faq-icon transition-transform"></i>
+        </button>
+        <div class="faq-answer hidden px-5 pb-5 text-gray-800 text-sm leading-relaxed">
+          Absolutely. We maintain strict confidentiality of all client data. Documents shared with us are stored securely, never shared with third parties, and used exclusively for the purpose of your tax filings and advisory. Our ZAIDONN app also uses 256-bit SSL encryption.
+        </div>
+      </div>
+      <div class="faq-item glass-card rounded-2xl overflow-hidden">
+        <button onclick="toggleFaq(this)" class="w-full flex items-center justify-between p-5 text-left">
+          <span class="font-display font-700 text-brand-900">Why isn't the ZAIDONN app on the Play Store?</span>
+          <i data-lucide="plus" class="w-5 h-5 text-brand-500 shrink-0 faq-icon transition-transform"></i>
+        </button>
+        <div class="faq-answer hidden px-5 pb-5 text-gray-800 text-sm leading-relaxed">
+          The ZAIDONN app is currently distributed directly to our clients to keep it exclusive, fast-to-update, and tailored to active clients only. This means you get a more personalised experience without the restrictions of app store approvals. The app is fully safe — simply contact us on WhatsApp to receive the secure download link with installation instructions.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────────────────── FOOTER ─────────────────────── -->
+<footer class="footer-gradient relative overflow-hidden pt-20 pb-8">
+  <div class="absolute inset-0 grid-overlay opacity-40"></div>
+  <div class="orb orb-2 opacity-10"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
+
+      <!-- Brand -->
+      <div class="lg:col-span-2">
+        <div class="flex items-center gap-3 mb-5">
+          <div class="w-12 h-12 rounded-2xl bg-white/15 flex items-center justify-center border border-white/20">
+            <span class="text-white font-display font-800 text-xl">Z</span>
+          </div>
+          <div>
+            <div class="text-white font-display font-800 text-2xl">ZAIDONN</div>
+            <div class="text-white/85 text-sm">Taxation Farm</div>
+          </div>
+        </div>
+        <p class="text-white/95 text-sm leading-relaxed mb-5 max-w-sm">
+          Driving Compliance. Creating Prosperity. Your trusted GST, ITR, Business Licences and Audit partner in Asansol and across India.
+        </p>
+        <div class="flex gap-3">
+          <a href="https://wa.me/917482049372" target="_blank" class="w-10 h-10 rounded-xl bg-green-500/20 border border-green-500/30 flex items-center justify-center text-green-300 hover:bg-green-500/40 transition">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+          </a>
+          <a href="tel:+917482049372" class="w-10 h-10 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center text-white/95 hover:bg-white/20 transition">
+            <i data-lucide="phone" class="w-5 h-5"></i>
+          </a>
+          <a href="https://www.zaidonn.com" target="_blank" class="w-10 h-10 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center text-white/95 hover:bg-white/20 transition">
+            <i data-lucide="globe" class="w-5 h-5"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h4 class="text-white font-display font-700 mb-4">Services</h4>
+        <ul class="space-y-2 text-white/95 text-sm">
+          <li><a href="#services" class="hover:text-white transition">GST Registration & Filing</a></li>
+          <li><a href="#services" class="hover:text-white transition">Income Tax (ITR)</a></li>
+          <li><a href="#services" class="hover:text-white transition">Business Licences</a></li>
+          <li><a href="#services" class="hover:text-white transition">Accounts & Audit</a></li>
+          <li><a href="#services" class="hover:text-white transition">TDS / TCS Returns</a></li>
+          <li><a href="#services" class="hover:text-white transition">Tax Advisory</a></li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <h4 class="text-white font-display font-700 mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-white/95 text-sm">
+          <li><a href="#about" class="hover:text-white transition">About Us</a></li>
+          <li><a href="#who-we-help" class="hover:text-white transition">Who We Help</a></li>
+          <li><a href="#how-we-work" class="hover:text-white transition">How We Work</a></li>
+          <li><a href="#app" class="hover:text-white transition">Download App</a></li>
+          <li><a href="#testimonials" class="hover:text-white transition">Testimonials</a></li>
+          <li><a href="#contact" class="hover:text-white transition">Contact Us</a></li>
+        </ul>
+        <div class="mt-5 p-3 rounded-xl bg-white/10 border border-white/15">
+          <div class="text-white text-xs font-medium mb-1">Office Address</div>
+          <div class="text-white/95 text-xs">Asansol, <br/>West Bengal, India</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="border-t border-white/15 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
+      <p class="text-white/90 text-sm">© 2025 ZAIDONN Taxation Farm. All rights reserved.</p>
+      <p class="text-white/90 text-sm">Built with ♥ for compliance excellence</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ─────────────────────── FLOATING WHATSAPP BUTTON ─────────────────────── -->
+<a href="https://wa.me/917482049372?text=Hi%2C%20I%27d%20like%20a%20free%20consultation" target="_blank"
+   class="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-green-500 flex items-center justify-center shadow-2xl hover:bg-green-600 hover:scale-110 transition-all duration-300 anim-bounce"
+   title="Chat on WhatsApp">
+  <i data-lucide="message-circle" class="w-7 h-7 text-white"></i>
+  <div class="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full border-2 border-white flex items-center justify-center">
+    <span class="text-white text-xs font-bold leading-none" style="font-size:8px">!</span>
+  </div>
+</a>
+
+<!-- ─────────────────────── BACK TO TOP ─────────────────────── -->
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"
+  class="fixed bottom-6 left-6 z-50 w-12 h-12 rounded-full bg-brand-600 text-white flex items-center justify-center shadow-xl hover:bg-brand-700 transition-all duration-300 opacity-0 translate-y-4"
+  style="transition: opacity 0.3s, transform 0.3s">
+  <i data-lucide="arrow-up" class="w-5 h-5"></i>
+</button>
+
+<!-- ─────────────────────── SCRIPTS ─────────────────────── -->
+<script>
+  // Init Lucide icons
+  lucide.createIcons();
+
+  // ── Navbar scroll effect ──
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 60) navbar.classList.add('scrolled');
+    else navbar.classList.remove('scrolled');
+  });
+
+  // ── Mobile menu ──
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+  let menuOpen = false;
+  menuToggle.addEventListener('click', () => {
+    menuOpen = !menuOpen;
+    mobileMenu.classList.toggle('open', menuOpen);
+    menuIcon.setAttribute('data-lucide', menuOpen ? 'x' : 'menu');
+    lucide.createIcons();
+  });
+
+  // Close mobile menu on link click
+  document.querySelectorAll('#mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      menuOpen = false;
+      mobileMenu.classList.remove('open');
+      menuIcon.setAttribute('data-lucide', 'menu');
+      lucide.createIcons();
+    });
+  });
+
+  // ── Scroll reveal ──
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        // Trigger counters if inside
+        entry.target.querySelectorAll('.counter').forEach(animateCounter);
+        // Trigger progress bars
+        entry.target.querySelectorAll('.progress-fill').forEach(fill => {
+          const target = parseFloat(fill.getAttribute('data-width'));
+          fill.style.width = target + '%';
+        });
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+  document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale').forEach(el => {
+    observer.observe(el);
+  });
+
+  // Observe sections for counters and bars
+  document.querySelectorAll('section').forEach(sec => observer.observe(sec));
+
+  // ── Counter animation ──
+  const animatedCounters = new Set();
+  function animateCounter(el) {
+    if (animatedCounters.has(el)) return;
+    animatedCounters.add(el);
+    const target = parseInt(el.getAttribute('data-target'));
+    const duration = 1800;
+    const start = performance.now();
+    function update(now) {
+      const elapsed = now - start;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(eased * target) + (el.closest('[data-target="98"]') ? '%' : el.closest('[data-target="500"]') ? '+' : '');
+      if (progress < 1) requestAnimationFrame(update);
+      else el.textContent = target + (target === 98 ? '%' : target === 500 ? '+' : '');
+    }
+    requestAnimationFrame(update);
+  }
+
+  // Also trigger counters when hero is visible initially
+  setTimeout(() => {
+    document.querySelectorAll('.counter').forEach(animateCounter);
+  }, 600);
+
+  // ── Back to top ──
+  const backToTop = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 400) {
+      backToTop.style.opacity = '1';
+      backToTop.style.transform = 'translateY(0)';
+    } else {
+      backToTop.style.opacity = '0';
+      backToTop.style.transform = 'translateY(16px)';
+    }
+  });
+
+  // ── FAQ Toggle ──
+  function toggleFaq(btn) {
+    const answer = btn.nextElementSibling;
+    const icon = btn.querySelector('.faq-icon');
+    const isOpen = !answer.classList.contains('hidden');
+    // Close all
+    document.querySelectorAll('.faq-answer').forEach(a => a.classList.add('hidden'));
+    document.querySelectorAll('.faq-icon').forEach(i => i.style.transform = 'rotate(0deg)');
+    // Open clicked
+    if (!isOpen) {
+      answer.classList.remove('hidden');
+      icon.style.transform = 'rotate(45deg)';
+    }
+  }
+
+  // ── Form submit ──
+  function handleSubmit(e) {
+    e.preventDefault();
+    const form = document.getElementById('contact-form');
+    const success = document.getElementById('form-success');
+    form.style.opacity = '0.5';
+    form.style.pointerEvents = 'none';
+    setTimeout(() => {
+      form.style.display = 'none';
+      success.classList.remove('hidden');
+    }, 800);
+  }
+  // ── Form submit → WhatsApp ──
+  function sendToWhatsApp(e) {
+    e.preventDefault();
+
+    const name    = document.getElementById('f-name').value.trim();
+    const phone   = document.getElementById('f-phone').value.trim();
+    const email   = document.getElementById('f-email').value.trim();
+    const service = document.getElementById('f-service').value;
+    const message = document.getElementById('f-message').value.trim();
+
+    // Build WhatsApp message
+    let text = `🙏 *New Enquiry – ZAIDONN Website*%0A%0A`;
+    text += `👤 *Name:* ${encodeURIComponent(name)}%0A`;
+    text += `📞 *Phone:* ${encodeURIComponent(phone)}%0A`;
+    if (email) text += `📧 *Email:* ${encodeURIComponent(email)}%0A`;
+    if (service) text += `🧾 *Service Required:* ${encodeURIComponent(service)}%0A`;
+    if (message) text += `💬 *Message:* ${encodeURIComponent(message)}%0A`;
+    text += `%0A_Sent from zaidonn.com contact form_`;
+
+    // Animate button
+    const btn = document.querySelector('#contact-form button[type="submit"]');
+    btn.innerHTML = '<svg class="animate-spin w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"></path></svg> Opening WhatsApp...';
+    btn.disabled = true;
+
+    setTimeout(() => {
+      // Open WhatsApp with pre-filled message
+      window.open(`https://wa.me/917482049372?text=${text}`, '_blank');
+
+      // Show success message
+      document.getElementById('contact-form').style.display = 'none';
+      document.getElementById('form-success').classList.remove('hidden');
+    }, 700);
+  }
+
+
+  // ── Smooth nav active state ──
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-link');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(sec => {
+      if (window.scrollY >= sec.offsetTop - 120) current = sec.id;
+    });
+    navLinks.forEach(link => {
+      link.style.opacity = link.getAttribute('href') === '#' + current ? '1' : '';
+    });
+  });
+</script>
+</body>
+</html>
